@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>577</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="page">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="GoGameTitle">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>GO</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="startButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Start</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="aboutGameButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>About Game</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="quitButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Quit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+         <zorder>startButton</zorder>
+         <zorder>aboutGameButton</zorder>
+         <zorder>quitButton</zorder>
+         <zorder>GoGameTitle</zorder>
+        </widget>
+        <widget class="QWidget" name="page_2">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>About Game</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="textBrowser">
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:9px; margin-bottom:9px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#202122;&quot;&gt;Go&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; is an &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Abstract_strategy_game&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;abstract strategy&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Board_game&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;board game&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; for two players in which the aim is to surround more territory than the opponent. The game was invented in China more than 2,500 years ago and is believed to be the oldest board game continuously played to the present day.A 2016 survey by the &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/International_Go_Federation&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;International Go Federation&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;'s 75 member nations found that there are over 46 million people worldwide who know how to play Go and over 20 million current players, the majority of whom live in &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/East_Asia&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;East Asia&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;.&lt;/span&gt;&lt;a name=&quot;cite_ref-3&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Go_(game)#cite_note-3&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad; vertical-align:super;&quot;&gt;[&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#0645ad; vertical-align:super;&quot;&gt;3]&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:9px; margin-bottom:9px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122; background-color:#ffffff;&quot;&gt;The&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Game_piece_(board_game)&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;playing pieces&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; are called &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Go_equipment#Stones&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;stones&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;. One player uses the white stones and the other, black. The players take turns placing the stones on the vacant intersections (&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-style:italic; color:#202122;&quot;&gt;points&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;) of a &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Go_(game)#Boards&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;board&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;. Once placed on the board, stones may not be moved, but stones are removed from the board if the stone (or group of stones) is surrounded by opposing stones on all &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Orthogonality#Gaming&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;orthogonally&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;-adjacent points, in which case the stone is &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-style:italic; color:#202122;&quot;&gt;captured&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt;.&lt;/span&gt;&lt;a name=&quot;cite_ref-FOOTNOTEIwamoto197722_4-0&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Go_(game)#cite_note-FOOTNOTEIwamoto197722-4&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad; vertical-align:super;&quot;&gt;[&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#0645ad; vertical-align:super;&quot;&gt;4]&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; The game proceeds until neither player wishes to make another move. When a game concludes, the winner is determined by counting each player's surrounded territory along with captured stones and &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Komidashi&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;komi&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; (points added to the &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Score_(game)&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; text-decoration: underline; color:#0645ad;&quot;&gt;score&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#202122;&quot;&gt; of the player with the white stones as compensation for playing second). Games may also be terminated by resignation.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Rules</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="textBrowser_2">
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Rules:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Game ends when both players pass in row.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;To place stone click on lines intersecion.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;If you feel hopeless use resign button.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Group of single coloured stones is captured when it has no breath. Group of single coloured stones has no breath if no stone in group has empty neighbour spot.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;KO rule: one position can't happen twice in one game, any move that repeats position in game is forbidden. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;When game ends, wins player with higher value of stones on board + stones captured during a game + controlled empty spots. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="backToMenuButton">
+            <property name="text">
+             <string>Back to menu</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_3">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="CustomGameView" name="gameView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="title">
+             <string>Panel</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="MsgLabel" name="msgLabel">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>msgmsgmsgmsgmsg</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="GameButton" name="passButton">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>PASS</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="GameButton" name="resignButton">
+               <property name="text">
+                <string>RESIGN</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="leaveGameButton">
+               <property name="text">
+                <string>Leave game</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CustomGameView</class>
+   <extends>QGraphicsView</extends>
+   <header>customgameview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MsgLabel</class>
+   <extends>QLabel</extends>
+   <header>msglabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GameButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">gamebutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
