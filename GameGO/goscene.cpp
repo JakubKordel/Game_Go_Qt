@@ -2,7 +2,7 @@
 
 GoScene::GoScene() : QGraphicsScene(0,0,500,500) {
     arenaImg = new QImage();
-    arenaImg->load("C:\\Users\\jakub\\Documents\\GameGO\\img\\field.png");
+    arenaImg->load("img\\field.png");
     arenaPixmap = new QPixmap();
     arenaPixmap->convertFromImage(*arenaImg);
     *arenaPixmap = arenaPixmap->scaled(500,500);

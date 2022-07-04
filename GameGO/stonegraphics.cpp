@@ -3,9 +3,9 @@
 StoneGraphics::StoneGraphics(bool color){
     stoneImg = new QImage();
     if (color){
-        stoneImg->load("C:\\Users\\jakub\\Documents\\GameGO\\img\\white_stone.png");
+        stoneImg->load("img\\white_stone.png");
     } else {
-        stoneImg->load("C:\\Users\\jakub\\Documents\\GameGO\\img\\black_stone.png");
+        stoneImg->load("img\\black_stone.png");
     }
 
     stonePixmap = new QPixmap();
